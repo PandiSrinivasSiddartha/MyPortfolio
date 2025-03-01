@@ -47,7 +47,7 @@ const Experience: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             {/* Timeline line */}
-            <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-indigo-200 dark:bg-indigo-900"></div>
+            <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 h-full w-2 bg-indigo-200 dark:bg-indigo-900"></div>
             
             {/* Experience items */}
             {experiences.map((exp, index) => (
@@ -58,7 +58,7 @@ const Experience: React.FC = () => {
                 </div>
                 
                 {/* Content */}
-                <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+                <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white">{exp.title}</h3>
                   <h4 className="text-lg font-medium text-indigo-600 dark:text-indigo-400 mb-2">{exp.company}</h4>
                   <div className="flex items-center text-gray-500 dark:text-gray-400 mb-4">

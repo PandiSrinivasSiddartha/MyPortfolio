@@ -65,14 +65,14 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-indigo-600 dark:border-indigo-400 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" 
+                  src="/me.jpg" 
                   alt="Pandi Srinivas Siddartha" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-white dark:bg-gray-800 px-4 py-2 rounded-lg shadow-md">
                 <p className="text-indigo-600 dark:text-indigo-400 font-mono text-sm">
-                  &lt;code/&gt;
+                  &lt;Siddu/&gt;
                 </p>
               </div>
             </div>

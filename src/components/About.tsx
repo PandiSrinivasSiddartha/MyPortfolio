@@ -10,7 +10,7 @@ const About: React.FC = () => {
           <div className="w-20 h-1 bg-indigo-600 dark:bg-indigo-400 mx-auto"></div>
         </div>
         
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto ">
           <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
             I'm a Computer Science & Engineering student at Rajiv Gandhi University of Knowledge Technologies, Nuzvid, with a passion for building innovative web applications and solving complex problems.
           </p>
@@ -20,8 +20,8 @@ const About: React.FC = () => {
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
+          <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+          <div className="flex items-center mb-4">
                 <div className="p-3 bg-indigo-100 dark:bg-indigo-900 rounded-full mr-4">
                   <Code className="text-indigo-600 dark:text-indigo-400" size={24} />
                 </div>
@@ -32,8 +32,8 @@ const About: React.FC = () => {
               </p>
             </div>
             
-            <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
+            <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+            <div className="flex items-center mb-4">
                 <div className="p-3 bg-indigo-100 dark:bg-indigo-900 rounded-full mr-4">
                   <GraduationCap className="text-indigo-600 dark:text-indigo-400" size={24} />
                 </div>
@@ -44,8 +44,8 @@ const About: React.FC = () => {
               </p>
             </div>
             
-            <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
+            <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+            <div className="flex items-center mb-4">
                 <div className="p-3 bg-indigo-100 dark:bg-indigo-900 rounded-full mr-4">
                   <Award className="text-indigo-600 dark:text-indigo-400" size={24} />
                 </div>
