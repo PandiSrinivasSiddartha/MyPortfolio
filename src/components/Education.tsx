@@ -15,7 +15,7 @@ const Education: React.FC = () => {
       degree: "B.Tech",
       specialization: "Computer Science & Engineering",
       institute: "RGUKT - NUZVID",
-      year: "2025-Present",
+      year: "2025-Present (3rd SEM)",
       cgpa: "9.653"
     },
     {
@@ -28,9 +28,9 @@ const Education: React.FC = () => {
     {
       degree: "SSC-BSEAP",
       specialization: "-",
-      institute: "Siddartha High School",
+      institute: "Siddartha High School - Srikakulam",
       year: "2021",
-      cgpa: "10.0"
+      cgpa: "10.0  (600/600) "
     }
   ];
 
@@ -45,7 +45,7 @@ const Education: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             {/* Timeline line */}
-            <div className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-indigo-200 dark:bg-indigo-900"></div>
+            <div className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 h-full w-2 bg-indigo-200 dark:bg-indigo-900"></div>
             
             {/* Education items */}
             {educationItems.map((item, index) => (

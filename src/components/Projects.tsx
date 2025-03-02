@@ -15,24 +15,24 @@ const Projects: React.FC = () => {
     {
       title: "Dynamic Route Rationalization System",
       description: "ML/AI-powered system for optimizing public transport routes using real-time data. Designed scalable architecture using Node.js, Kafka, & MongoDB for handling transport data. SIH 2024 Winning Project (PS ID: 1617).",
-      image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      image: "public/sih.jpg",
       technologies: ["Node.js", "Express.js", "Flutter", "AI/ML", "MongoDB", "Kafka"],
-      githubLink: "https://github.com/"
+      githubLink: "https://github.com/438-venkatesh/SIH_2K24_Project.git"
     },
     {
       title: "RGUKT Alumni Association Portal",
       description: "Developed and designed an Alumni Association website to facilitate networking and engagement among former students. Implemented user-friendly features for event updates, member registration, and communication.",
-      image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      image: "public/Alumni.jpg",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com/"
+      liveLink: "https://alumni-n4q7.vercel.app/",
+      githubLink: "https://github.com/Dharaneeswar-Reddy-Avula/AlumniRepo.git"
     },
     {
       title: "Digital Democracy (E-Voting Platform)",
       description: "Developed Digital Democracy, an E-voting platform for the CSE department to facilitate the election of the student body head, ensuring a secure and user-friendly voting experience. Implemented authentication, real-time vote counting, and a transparent electoral process.",
-      image: "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      image: "public/DigiDemos.jpg",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
-      githubLink: "https://github.com/"
+      githubLink: "https://github.com/N210023/final.git"
     }
   ];
 

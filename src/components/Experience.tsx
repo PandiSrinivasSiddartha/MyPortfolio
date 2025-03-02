@@ -59,7 +59,7 @@ const Experience: React.FC = () => {
                 
                 {/* Content */}
                 <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">{exp.title}</h3>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-3">{exp.title}</h3>
                   <h4 className="text-lg font-medium text-indigo-600 dark:text-indigo-400 mb-2">{exp.company}</h4>
                   <div className="flex items-center text-gray-500 dark:text-gray-400 mb-4">
                     <Calendar size={16} className="mr-2" />

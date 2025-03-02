@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
     <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm shadow-md' : 'bg-transparent'}`}>
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
-          <span className="font-mono">&lt;</span>Siddartha<span className="font-mono">/&gt;</span>
+          <span className="font-mono">&lt;</span>Full Stack Developer<span className="font-mono">/&gt;</span>
         </a>
 
         {/* Desktop Navigation */}

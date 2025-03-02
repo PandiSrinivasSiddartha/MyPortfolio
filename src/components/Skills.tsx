@@ -12,17 +12,17 @@ const Skills: React.FC = () => {
     {
       title: "Programming Languages",
       icon: <Terminal className="text-indigo-600 dark:text-indigo-400" size={24} />,
-      skills: ["Python", "C", "Java", "JavaScript", "TypeScript"]
+      skills: ["Python", "C", "Java", "JavaScript"]
     },
     {
       title: "Frontend Development",
       icon: <Globe className="text-indigo-600 dark:text-indigo-400" size={24} />,
-      skills: ["React.js", "Next.js", "HTML5", "CSS3", "Bootstrap", "jQuery"]
+      skills: ["React.js", "HTML5", "CSS3", "Bootstrap", "jQuery" , "Tailwind CSS"]
     },
     {
       title: "Backend Development",
       icon: <Server className="text-indigo-600 dark:text-indigo-400" size={24} />,
-      skills: ["Node.js", "Express.js", "REST API"]
+      skills: ["Node.js","Express.js","Next.js"]
     },
     {
       title: "Mobile Development",
@@ -37,7 +37,7 @@ const Skills: React.FC = () => {
     {
       title: "CS Fundamentals",
       icon: <Code className="text-indigo-600 dark:text-indigo-400" size={24} />,
-      skills: ["Data Structures & Algorithms", "OOP", "DBMS"]
+      skills: ["Data Structures & Algorithms", "OOPs", "DBMS"]
     }
   ];
 
