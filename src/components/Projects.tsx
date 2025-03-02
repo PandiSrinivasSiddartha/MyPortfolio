@@ -15,14 +15,14 @@ const Projects: React.FC = () => {
     {
       title: "Dynamic Route Rationalization System",
       description: "ML/AI-powered system for optimizing public transport routes using real-time data. Designed scalable architecture using Node.js, Kafka, & MongoDB for handling transport data. SIH 2024 Winning Project (PS ID: 1617).",
-      image: "public/sih.jpg",
+      image: "/sih.jpg",
       technologies: ["Node.js", "Express.js", "Flutter", "AI/ML", "MongoDB", "Kafka"],
       githubLink: "https://github.com/438-venkatesh/SIH_2K24_Project.git"
     },
     {
       title: "RGUKT Alumni Association Portal",
       description: "Developed and designed an Alumni Association website to facilitate networking and engagement among former students. Implemented user-friendly features for event updates, member registration, and communication.",
-      image: "public/Alumni.jpg",
+      image: "/Alumni.jpg",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
       liveLink: "https://alumni-n4q7.vercel.app/",
       githubLink: "https://github.com/Dharaneeswar-Reddy-Avula/AlumniRepo.git"
@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
     {
       title: "Digital Democracy (E-Voting Platform)",
       description: "Developed Digital Democracy, an E-voting platform for the CSE department to facilitate the election of the student body head, ensuring a secure and user-friendly voting experience. Implemented authentication, real-time vote counting, and a transparent electoral process.",
-      image: "public/DigiDemos.jpg",
+      image: "/DigiDemos.jpg",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
       githubLink: "https://github.com/N210023/final.git"
     }

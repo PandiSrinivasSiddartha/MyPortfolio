@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
               </a>
 
               <a
-                href="public/Resume.pdf"
+                href="/Resume.pdf"
                 className="px-6 py-3 border border-indigo-600 text-indigo-600 dark:text-indigo-400 dark:border-indigo-400 hover:bg-indigo-50 dark:hover:bg-gray-800 rounded-md transition-colors flex items-center gap-2"
                 download
               >
